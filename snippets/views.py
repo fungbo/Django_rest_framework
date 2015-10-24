@@ -45,17 +45,3 @@ class SnippetViewSet(viewsets.ModelViewSet):
 router = DefaultRouter()
 router.register(r'snippets', SnippetViewSet)
 router.register(r'users', UserViewSet)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
